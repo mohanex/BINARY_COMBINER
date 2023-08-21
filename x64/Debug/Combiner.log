@@ -1,4 +1,4 @@
 ﻿  Combiner.cpp
-C:\Users\mafassi\Desktop\csv format-20230601T073237Z-001\combiner\Combiner\Combiner.cpp(66,28): warning C4267: '=' : conversion de 'size_t' en 'int', perte possible de données
-C:\Users\mafassi\Desktop\csv format-20230601T073237Z-001\combiner\Combiner\Combiner.cpp(76,34): warning C4267: '=' : conversion de 'size_t' en 'int', perte possible de données
-  Combiner.vcxproj -> C:\Users\mafassi\Desktop\csv format-20230601T073237Z-001\combiner\Combiner\x64\Debug\Combiner.exe
+C:\Users\mafassi\Desktop\csv format-20230601T073237Z-001\combiner\BINARY_COMBINER\Combiner.cpp(66,28): warning C4267: '=' : conversion de 'size_t' en 'int', perte possible de données
+C:\Users\mafassi\Desktop\csv format-20230601T073237Z-001\combiner\BINARY_COMBINER\Combiner.cpp(76,34): warning C4267: '=' : conversion de 'size_t' en 'int', perte possible de données
+  Combiner.vcxproj -> C:\Users\mafassi\Desktop\csv format-20230601T073237Z-001\combiner\BINARY_COMBINER\x64\Debug\Combiner.exe

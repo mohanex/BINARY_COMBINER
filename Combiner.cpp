@@ -12,7 +12,7 @@ using namespace std;
 void concatenateBinaryFiles(const vector<string>& filenames, const string& outputFilename);
 
 int main() {
-    string binFiles[35];
+    string binFiles[45];
     char Bin_output[]="combinedFile.bin";
     remove(Bin_output);
     int i = 0;
@@ -43,7 +43,7 @@ int main() {
                 if (retn == 0)
                 {
                     binFiles[i] = ptr1 + bin_extension;
-                    printf("Test3\n\r");
+                    printf("Test3 %d\n\r", i);
                 }
             }
             i++;
@@ -58,7 +58,7 @@ int main() {
         return -3;
     }
     for (int i = 0; i < 32; i++) {
-        binFiles[i] = binFiles[i + 3];
+        binFiles[i] = binFiles[i + 4];
         std::cout << binFiles[i] << "\n";
     }
     for (int i = 0; i < 32; i++) {
